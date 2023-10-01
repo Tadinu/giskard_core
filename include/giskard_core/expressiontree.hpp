@@ -21,7 +21,7 @@
 #ifndef GISKARD_CORE_EXPRESSIONTREE_HPP
 #define GISKARD_CORE_EXPRESSIONTREE_HPP
 
-#include <kdl/expressiontree.hpp>
+#include "kdl/expressiontree.hpp"
 #include <giskard_core/expression_arrays.hpp>
 #include <giskard_core/slerp.hpp>
 

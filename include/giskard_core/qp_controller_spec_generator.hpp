@@ -52,7 +52,7 @@ namespace giskard_core
     class QPControllerParams
     {
       public:
-        QPControllerParams(const urdf::Model& robot_model, const std::string& root_link,
+        QPControllerParams(urdf::Model& robot_model, const std::string& root_link,
             const std::map<std::string, double>& joint_weights, const std::map<std::string, double>& joint_thresholds,
             const std::map<std::string, ControlParams>& control_params) :
           robot_(robot_model, root_link, get_chains(control_params), joint_weights, joint_thresholds),

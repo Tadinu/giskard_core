@@ -28,7 +28,7 @@ using namespace giskard_core;
 class TestRobot : public Robot
 {
   public:
-     TestRobot(const urdf::Model& robot_model, const std::string& root_link,
+     TestRobot(urdf::Model& robot_model, const std::string& root_link,
           const std::vector<std::string>& tip_links, const std::map<std::string, double>& weights,
           const std::map<std::string, double>& thresholds) :
        Robot(robot_model, root_link, tip_links, weights, thresholds) {}

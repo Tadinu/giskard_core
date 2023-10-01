@@ -25,8 +25,9 @@
 #include <iostream>
 #include <map>
 #include <boost/lexical_cast.hpp>
-#include <giskard_core/expressiontree.hpp>
 #include <giskard_core/scope.hpp>
+#include <kdl/expressiontree.hpp>
+#include "slerp.hpp"
 
 namespace giskard_core
 {

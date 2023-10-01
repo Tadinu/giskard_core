@@ -24,8 +24,7 @@
 #include <string>
 #include <map>
 #include <stdexcept>
-#include <giskard_core/expressiontree.hpp>
-
+#include <kdl/expressiontree.hpp>
 namespace giskard_core
 {
   class Scope

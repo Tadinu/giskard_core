@@ -23,7 +23,6 @@
 
 #include <giskard_core/expression_generation.hpp>
 #include <giskard_core/expression_extraction.hpp>
-#include <giskard_core/expressiontree.hpp>
 #include <giskard_core/qp_controller.hpp>
 #include <giskard_core/qp_controller_projection.hpp>
 #include <giskard_core/qp_problem_builder.hpp>
@@ -32,5 +31,6 @@
 #include <giskard_core/specifications.hpp>
 #include <giskard_core/qp_controller_spec_generator.hpp>
 #include <giskard_core/yaml_parser.hpp>
-
+#include <kdl/expressiontree.hpp>
+#include <qpOASES.hpp>
 #endif // GISKARD_CORE_GISKARD_CORE_HPP

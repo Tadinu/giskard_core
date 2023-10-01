@@ -49,7 +49,7 @@ namespace giskard_core
   {
     public:
       // TODO: move the beef of this constructor into an init function
-      Robot(const urdf::Model& robot_model, const std::string& root_link,
+      Robot(urdf::Model& robot_model, const std::string& root_link,
           const std::vector<std::string>& tip_links, 
           const std::map<std::string, double> weights,
           const std::map<std::string, double> thresholds) :
@@ -62,7 +62,7 @@ namespace giskard_core
           init_kinematic_chain(root_link, tip_links[i]);
       }
 
-      Robot(const urdf::Model& robot_model, const std::string& root_link,
+      Robot(urdf::Model& robot_model, const std::string& root_link,
           const std::vector< std::pair<std::string, std::string> >& chain_links,
           const std::map<std::string, double> weights,
           const std::map<std::string, double> thresholds) :
@@ -202,7 +202,7 @@ namespace giskard_core
       }
 
     protected:
-      urdf::Model robot_model_;
+      urdf::Model& robot_model_;
       std::map<std::string, std::string> parent_link_tree_;
       std::map< std::pair<std::string, std::string>, FrameSpecPtr> fk_map_;
       std::map<std::string, ControllableConstraintSpec> controllable_map_;

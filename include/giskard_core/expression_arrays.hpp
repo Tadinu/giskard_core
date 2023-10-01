@@ -21,7 +21,7 @@
 #ifndef GISKARD_CORE_EXPRESSION_ARRAYS_HPP
 #define GISKARD_CORE_EXPRESSION_ARRAYS_HPP
 
-#include <kdl/expressiontree.hpp>
+#include "kdl/expressiontree.hpp"
 
 namespace KDL
 {

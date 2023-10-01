@@ -21,7 +21,8 @@
 #ifndef GISKARD_CORE_QP_PROBLEM_BUILDER_HPP
 #define GISKARD_CORE_QP_PROBLEM_BUILDER_HPP
 
-#include <giskard_core/expressiontree.hpp>
+#include <kdl/expressiontree.hpp>
+#include "expression_arrays.hpp"
 
 namespace giskard_core
 {

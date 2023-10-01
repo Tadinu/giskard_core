@@ -22,7 +22,7 @@
 #define GISKARD_CORE_SLERP_HPP
 
 #include <kdl/frames.hpp>
-#include <kdl/expressiontree.hpp>
+#include "kdl/expressiontree.hpp"
 
 namespace giskard_core
 {
